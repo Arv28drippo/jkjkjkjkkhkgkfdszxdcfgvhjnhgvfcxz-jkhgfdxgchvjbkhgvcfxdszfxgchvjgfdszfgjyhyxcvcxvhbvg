@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI OBJECT FINDER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+        <script src=" https://unpkg.com/ml5@latest/dist/ml5.min.js "></script>
+    </head>
+    <body background="background.jpeg">
+        <center>
+        <h1 class="btn btn-primary heading">AI OBJECT FINDER
+            <p class="note">Note : The Input Name You Give Should Match The Names Present In The Cocossd Model. Only Then Will It Be Detected</p>
+        </h1>
+        <br>
+        <br>
+        <p class="object_name">Object Name : </p>
+        <br>
+        <input id="input_id" type="text" placeholder="Object Name">
+        <br>
+        <br>
+        <button id="start" class="btn btn-info" onclick="Start()">Start</button>
+        <br>
+        <br>
+        <h3 class="btn btn-danger" id="status"></h3>
+        <h3 class="btn btn-warning" id="object_found"></h3>
+    </center>
+    </body>
+    </html>

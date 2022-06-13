@@ -1,0 +1,38 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    width: 100%;
+}
+
+.note
+{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.object_name
+{
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#input_id
+{
+    border-radius: 10px;
+}
+
+#start
+{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: aqua;
+}
